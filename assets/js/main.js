@@ -12,7 +12,7 @@
   }
 
   /**
-   * Sticky header on scroll
+   * Sticky header saat scroll
    */
   const selectHeader = document.querySelector('#header');
   if (selectHeader) {
@@ -66,7 +66,7 @@
   }
 
   /**
-   * Hide mobile nav on same-page/hash links
+   * Menyembunyikan mobile nav di page yang sama/hash links
    */
   document.querySelectorAll('#navbar a').forEach(navbarlink => {
 
@@ -103,7 +103,7 @@
   });
 
   /**
-   * Scroll top button
+   * Scroll tombol atas
    */
   const scrollTop = document.querySelector('.scroll-top');
   if (scrollTop) {
@@ -119,7 +119,7 @@
   }
 
   /**
-   * Initiate glightbox
+   * Inisialisasi glightbox
    */
   const glightbox = GLightbox({
     selector: '.glightbox'
